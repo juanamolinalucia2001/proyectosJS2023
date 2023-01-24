@@ -167,14 +167,20 @@ body {
 .agregar_btn:focus { outline: none; }
 
 .contenedor {
-    width: 860px;
+    max-width: 860px;
     margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center ;
 }
 
 .ingreso {
     float: left;
     width: 370px;
     margin-right: 70px;
+    margin-bottom: 50px;
+    
 }
 
 .egreso {
